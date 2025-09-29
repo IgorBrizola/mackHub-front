@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>MackHub</title>
 </head>
 <body>
@@ -52,7 +53,7 @@
 
     <section class="flex items-center bg-amber-400 mt-4 w-full h-10">
         <nav class="flex items-center justify-between w-full px-2">
-            <div class="bg-pink-300"><button>icone<span>OPTION 1</span></button></div>
+            <div class="bg-pink-300"><button><i class="fa-regular fa-calendar"></i><span>OPTION 1</span></button></div>
             <div class="bg-orange-600"><button>icone<span>OPTION 2</span></button></div>
             <div class="bg-green-400"><button>icone<span>OPTION 3</span></button></div>
             <div class="bg-red-500"><button>icone<span>OPTION 4</span></button></div>
@@ -60,81 +61,31 @@
         </nav>
     </section>
 
-       <section class="flex items-center bg-black mt-4 w-full h-40">
+    <section class="flex items-center mt-4 w- h-40">
         <nav class="flex items-center justify-around w-full">
             <div class="bg-pink-300 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 1</span></button></div>
-             <div class="bg-orange-600 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 2</span></button></div>
-              <div class="bg-green-400 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 3</span></button></div>
-               <div class="bg-red-500 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 4</span></button></div>
-                <div class="bg-pink-700 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 5</span></button></div>
+            <div class="bg-orange-600 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 2</span></button></div>
+            <div class="bg-green-400 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 3</span></button></div>
+            <div class="bg-red-500 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 4</span></button></div>
+            <div class="bg-pink-700 h-32 w-52 flex flex-col justify-center items-center"><button>icone<span>OPTION 5</span></button></div>
         </nav>
         </section>
-
-          <section class="flex items-center justify-around bg-red-200 mt-4 w-full h-40">
+        <section class="flex w-[80vw] flex-col mx-auto">
+            <section class="flex items-center justify-around mt-4 w-full h-40">
                 <div class="flex gap-2 items-center">icone<h2 class="font-bold text-2xl">Agenda Acadêmica</h2></div>
                 <div class="flex gap-2 items-center">icone<button>Configurar Lembretes</button></div>
+            </section>
+    
+            <section class="flex items-centermt-4 w-full">
+            <div id="Agenda" class="flex flex-col items-center justify-around w-full gap-5">
+    
+            
+            </div>
         </section>
-
-          <section class="flex items-center bg-black mt-4">
-        <div class="flex flex-col items-center justify-around w-full gap-5">
-
-            <div class="bg-pink-300 h-32 w-full flex justify-around items-center">
-                <div>
-                    <div class="flex items-center gap-2">
-                        <h2 class="font-bold">Prova de Java</h2> 
-                        <span class="bg-red-500">Prova</span>
-                    </div>
-                    <p>S.I - Programação de Sistemas I</p>
-                    <span>09/12/2025 ás 21:10</span>
-                </div>
-                <div>
-                     <button>icone<span>Lembrete</span></button>
-                </div>
-            </div>
-
-                 <div class="bg-yellow-300 h-32 w-full flex justify-around items-center">
-                <div>
-                    <div class="flex items-center gap-2">
-                        <h2 class="font-bold">Prova de Java</h2> 
-                        <span class="bg-red-500">Prova</span>
-                    </div>
-                    <p>S.I - Programação de Sistemas I</p>
-                    <span>09/12/2025 ás 21:10</span>
-                </div>
-                <div>
-                     <button>icone<span>Lembrete</span></button>
-                </div>
-            </div>
-
-            <div class="bg-pink-600 h-32 w-full flex justify-around items-center">
-                <div>
-                    <div class="flex items-center gap-2">
-                        <h2 class="font-bold">Prova de Java</h2> 
-                        <span class="bg-red-500">Prova</span>
-                    </div>
-                    <p>S.I - Programação de Sistemas I</p>
-                    <span>09/12/2025 ás 21:10</span>
-                </div>
-                <div>
-                     <button>icone<span>Lembrete</span></button>
-                </div>
-            </div>
-
-            <div class="bg-amber-700 h-32 w-full flex justify-around items-center">
-                <div>
-                    <div class="flex items-center gap-2">
-                        <h2 class="font-bold">Prova de Java</h2> 
-                        <span class="bg-red-500">Prova</span>
-                    </div>
-                    <p>S.I - Programação de Sistemas I</p>
-                    <span>09/12/2025 ás 21:10</span>
-                </div>
-                <div>
-                     <button>icone<span>Lembrete</span></button>
-                </div>
-            </div>
+        
         
         </nav>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
