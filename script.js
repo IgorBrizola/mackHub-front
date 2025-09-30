@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         dropdown.classList.add("hidden");
       }
     });
+<<<<<<< HEAD
 });
 
 const sectionAgenda = document.getElementById("Agenda");
@@ -40,3 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
     sectionAgenda.innerHTML += sectionAgendacontent;
   });
 });
+=======
+  });
+
+
+
+
+  
+>>>>>>> ba9e1e8 (tela principal att)
